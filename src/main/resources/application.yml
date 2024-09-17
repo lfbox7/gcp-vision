@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: images
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/images?currentSchema=images
+    username: lenny
+    password:
